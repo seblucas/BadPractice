@@ -18,7 +18,6 @@ aptitude install libicu-dev libsqlite3-dev build-essential
 ### Build
 
 ```bash
-gcc -shared icu.c `icu-config --ldflags` -fPIC -o libSqliteIcu.so
+gcc -shared icu.c -o libSqliteIcu.so
 ```
 
-The flag `-fPIC` is only needed if you're using a 64bits kernel.
