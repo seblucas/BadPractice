@@ -69,8 +69,8 @@ static void xFree(void *p){
 
 /*
 ** Compare two UTF-8 strings for equality where the first string is
-** a "LIKE" expression. Return true (1) if they are the same and 
-** false (0) if they are different.
+** a "LIKE" expression. Return true (1) if they are the different and 
+** false (0) if they are same.
 */
 static int icuLikeCompare(
   const uint8_t *zPattern,   /* LIKE pattern */
