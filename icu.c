@@ -584,6 +584,11 @@ int sqlite3IcuInit(sqlite3 *db){
   return rc;
 }
 
+int sqliteTest ()
+{
+    return true;
+}
+
 #if !SQLITE_CORE
 int sqlite3_extension_init(
   sqlite3 *db, 
