@@ -515,10 +515,11 @@ int sqlite3IcuInit(sqlite3 *db){
     {"lower",  2, SQLITE_UTF8,         0, icuCaseFunc16},
     {"upper",  1, SQLITE_UTF8,  (void*)1, icuCaseFunc16},
     {"upper",  2, SQLITE_UTF8,  (void*)1, icuCaseFunc16},
-
+<<<<<<< HEAD
     {"like",   2, SQLITE_UTF8,         0, icuLikeFunc},
     {"like",   3, SQLITE_UTF8,         0, icuLikeFunc},
-
+=======
+ >>>>>>> 4e2b407f501b68f8588aa645acafffa0224b9b78
     {"icu_load_collation",  2, SQLITE_UTF8, (void*)db, icuLoadCollation},
   };
 
