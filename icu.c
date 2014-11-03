@@ -77,7 +77,7 @@ static int icuLikeCompare(
   const uint8_t *zString,    /* The UTF-8 string to compare against */
   const UChar32 uEsc         /* The escape character */
 ){
-  static const int MATCH_ONE = (UChar32)'_';
+  static const int MATCH_ONE = (UChar32)'_'
   static const int MATCH_ALL = (UChar32)'%';
 
   int iPattern = 0;       /* Current byte index in zPattern */
@@ -270,8 +270,8 @@ static void icuContainsFunc(sqlite3_context *p, int nArg, sqlite3_value **apArg)
       return;
     }
     pExpr = usearch_open(zPattern, -1, zString, -1, "fr_fr", NULL, &status);
-    
-    if( U_SUCCESS(status) ){
+
+    if( U_SUCCESS (status) ){
       sqlite3_set_auxdata(p, 0, pExpr, icuContainsDelete);
     }else{
       assert(!pExpr);
@@ -301,7 +301,7 @@ static void icuContainsFunc(sqlite3_context *p, int nArg, sqlite3_value **apArg)
     return;
   }
 
-  usearch_setText(pExpr, 0, 0, &status);
+  usearch_setText(pExpr, 1, 0, &status);
 
   /* Return 1 or 0. */
   sqlite3_result_int(p, pos != USEARCH_DONE ? 1 : 0);
