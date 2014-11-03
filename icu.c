@@ -77,7 +77,7 @@ static int icuLikeCompare(
   const uint8_t *zString,    /* The UTF-8 string to compare against */
   const UChar32 uEsc         /* The escape character */
 ){
-  static const int MATCH_ONE = (UChar32)'_'
+  static const int MATCH_ONE = (UChar32)'_';
   static const int MATCH_ALL = (UChar32)'%';
 
   int iPattern = 0;       /* Current byte index in zPattern */
