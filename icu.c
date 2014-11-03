@@ -493,55 +493,6 @@ static int icuCollationColl(
 }
 
 /*
-** Implementation of the scalar function icu_load_collation().
-**
-** This scalar function is used to add ICU collation based collation 
-** types to an SQLite database connection. It is intended to be called
-** as follows:
-**
-**     SELECT icu_load_collation(<locale>, <collation-name>);
-**
-** Where <locale> is a string containing an ICU locale identifier (i.e.
-** "en_AU", "tr_TR" etc.) and <collation-name> is the name of the
-** collation sequence to create.
-*/
-static void icuLoadCollation(
-  sqlite3_context *p, 
-  int nArg, 
-  sqlite3_value **apArg
-){
-  sqlite3 *db = (sqlite3 *)sqlite3_user_data(p);
-  UErrorCode status = U_ZERO_ERROR;
-  const char *zLocale;      /* Locale identifier - (eg. "jp_JP") */
-  const char *zName;        /* SQL Collation sequence name (eg. "japanese") */
-  UCollator *pUCollator;    /* ICU library collation object */
-  int rc;                   /* Return code from sqlite3_create_collation_x() */
-
-  assert(nArg==2);
-  zLocale = (const char *)sqlite3_value_text(apArg[0]);
-  zName = (const char *)sqlite3_value_text(apArg[1]);
-
-  if( !zLocale || !zName ){
-    return;
-  }
-
-  pUCollator = ucol_open(zLocale, &status);
-  if( !U_SUCCESS(status) ){
-    icuFunctionError(p, "ucol_open", status);
-    return;
-  }
-  assert(p);
-
-  rc = sqlite3_create_collation_v2(db, zName, SQLITE_UTF16, (void *)pUCollator, 
-      icuCollationColl, icuCollationDel
-  );
-  if( rc!=SQLITE_OK ){
-    ucol_close(pUCollator);
-    sqlite3_result_error(p, "Error registering collation function", -1);
-  }
-}
-
-/*
 ** Register the ICU extension functions with database db.
 */
 int sqlite3IcuInit(sqlite3 *db){
