@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"urlc",
+				"urlencode"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"new",
+				"new_results  (variable)"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"intersect",
+				"intersect"
+			],
+			[
+				"curren",
+				"current_results"
+			],
+			[
+				"array_ke",
+				"array_keys"
+			],
+			[
+				"array_in",
+				"array_intersect"
+			],
+			[
+				"cur",
+				"current_results  (variable)"
+			],
+			[
+				"arr",
+				"array  (keyword)"
+			],
+			[
+				"is_n",
+				"is_null"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 420,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"IndentX: Indent"
+			],
+			[
+				"in",
+				"IndentX: Indent"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"lin",
+				"SublimeLinter: Next Error"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Sebastien/Dropbox/Projets/badPractice"
+	],
+	"file_history":
+	[
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/lectures-2014-09.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/update-smartctl-database-wheezy.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/banana-pi-3-installation-sur-ssd.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/oss/calibre-opds-php-server.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/kobo-ereader-firmware-3.8.0.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/oeil-3.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/fr/oss/calibre-opds-php-server.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/metadata.xml",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/stylesheet.css",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/tentacule-2.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-1.0.0RC2.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/lectures-2014-06.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/test1-1.xml",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/test1.xml",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/odeva.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/kobo-ereader-firmware-3.4.1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/creation-epub-pandoc-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/sqlite-icu-extension-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/oss/hgweb-mod_python.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/revue-de-web-ebook-2.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/bittorrent-sync-dropbox-alternative.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/oracle-detail-diskspace.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-0.0.4.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/raspberry-pi-openelec-xbox-dongle.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/epub.cmd",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/creation-epub-pandoc.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-spk-dsm5.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/coupure-20140527.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/sqlite-icu-extension.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/creation-epub-word-calibre.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-spk-dsm5-beta-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/raspberry-pi-openelec-xbox-dongle-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/flat-file-cms-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/kobo-ereader-touch-60.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/pico_sitemap.php",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/kobo-ereader-firmware-3.3.0.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/revue-de-web-kobo-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/raspberry-pi-xbmc-3.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/rss.html",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/pico_rss.php",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-1.0.0RC1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-0.0.3.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/pico_search.php",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/pico_tips.php",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/themes/default/style.css",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/lib/pico.php",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/themes/default/index.html",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/cops-tutoriel-mot-de-passe-apache.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/robots.txt",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/lectures-2014-04.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/a10-google-tv-1.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/fr/oss/calibre-opds-php-server-changelog.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/oss/calibre-opds-php-server-changelog.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/fr/debian/conky.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/anniversaire-2.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/blog/anniversaire-3.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/user/sebastien_lucas.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/WindsOfWinter.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/oracle-find-foreign-key-unindexed.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/content/en/tips/oracle-long-queries.md",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/plugins/pico_tags.php",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/User/VcsGutter.sublime-settings",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/VCS Gutter/VcsGutter.sublime-settings",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Sebastien/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Sebastien/Dropbox/Projets/www-blog/www-blog.sublime-project",
+		"/C/Users/Sebastien/Dropbox/Projets/cops-github/cops.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"([^\\.\\!\\?\\*])\\n$",
+			"([^\\.\\!\\?])\\n$",
+			"([^\\.])\\n$",
+			"\\*\\*",
+			"- ",
+			"Otolep",
+			"- ",
+			"-",
+			"^- ",
+			"Junil",
+			"chant d",
+			"chant du",
+			"##",
+			"## 1",
+			"^(\\d+)$",
+			"^\\s+$",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!\\»])\\n\\n\\n\\n",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!\\»])\\n\\n\\n",
+			"\\*",
+			"\\n\\n(\\n+)",
+			"^\\d+$",
+			"^\\s$",
+			"\\n\\n(\\n+)",
+			"## 1$",
+			"## 1",
+			"^ $",
+			"\\n \\n",
+			"\\* \\*\\*",
+			"* **",
+			"* *",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!\\»])\\n\\n\\n\\n",
+			"^.+\\—",
+			"\\*",
+			"*",
+			"\\*",
+			"*",
+			"\\n\\n+",
+			"^\\s$",
+			"\\n\\n+",
+			"^ $",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!\\»])\\n\\n\\n\\n",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!\\»])\\n\\n\\n",
+			"^(\\d+)$",
+			"data-z='-12000'",
+			"data-z='-6000'",
+			"data-y='2100'",
+			"data-y='3500'",
+			"data-y='2700'",
+			"data-y='1700'",
+			"data-y='3500'",
+			"data-y='2300'",
+			"-z",
+			"^# ",
+			"^\\d+$",
+			"",
+			"»",
+			"douze",
+			"guild",
+			"forma",
+			"l'ombre",
+			"doute",
+			"voler",
+			"promet",
+			"force",
+			"Toujou",
+			"Sérénis",
+			"promette",
+			"t'aime",
+			"Dis-",
+			"flamme",
+			"pacte",
+			"# ",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:\\!])\\n\\n",
+			"# ",
+			"^([^\\#\\n])(.+)([^\\.\\?\\:])\\n\\n",
+			":",
+			"# Chapitre 1",
+			"^([^\\#\\n])(.+)([^\\.\\?])\\n\\n",
+			"\\n{3,15}",
+			"Chapitre 1$",
+			"Chapitre 1",
+			"chapitre",
+			"^(Chapitre \\d{1,3})\\n+",
+			"\\n*^\\d{1,3}\\n+",
+			"\\n*\\d{1,3}\\n+",
+			"\\n+\\d{1,3}\\n+",
+			"([^\\.])\\n\\n",
+			"([^\\.])\\n$",
+			"[^\\.]\\n$",
+			".+\\n$",
+			"\\d+\\n\\n\\n",
+			"\\n",
+			"heade",
+			"----",
+			"input",
+			"menu",
+			"/*=================================*/",
+			"nav",
+			"split",
+			"firmware",
+			"px",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"— ",
+			"-",
+			"— ",
+			"## $1",
+			"",
+			"$1$2$3 ",
+			"\\n\\n",
+			"\\n",
+			"",
+			"\\n\\n",
+			"",
+			" ",
+			"*\\n\\n**",
+			" ",
+			"$1$2$3 ",
+			"",
+			"\\n\\n",
+			"",
+			"\\n\\n",
+			"",
+			"$1$2$3 ",
+			"## $1",
+			"# $1",
+			"data-z='-18000'",
+			"data-z='-9000'",
+			"data-y='2500'",
+			"data-y='2100'",
+			"data-y='1500'",
+			"data-y='500'",
+			"data-y='2700'",
+			"data-y='1700'",
+			"—",
+			"$1$2$3 ",
+			"\\n\\n",
+			"## $1\\n\\n",
+			"\\n\\n",
+			"$1 ",
+			"",
+			"\\n\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "badpractice.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Sebastien\\Dropbox\\Projets\\ncops-angular\\ncops-angular.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
