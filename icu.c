@@ -147,7 +147,7 @@ static int icuLikeCompare(
     }
   }
 
-  return zString[iString]==0;
+  return zString[iString]!=0;
 }
 
 /*
@@ -164,8 +164,8 @@ static int icuLikeCompare(
 ** is mapped to like(B, A, E).
 */
 static void icuLikeFunc(
-  sqlite3_context *context, 
-  int argc, 
+  sqlite3_context *context,
+  int argc,
   sqlite3_value **argv
 ){
   const unsigned char *zA = sqlite3_value_text(argv[0]);
